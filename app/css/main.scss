@@ -1,0 +1,42 @@
+$primary-color    : #2C3E50;
+$side-bar-width   : 16em;
+$side-input-width : 13.5em;
+
+.layout {
+  padding-left: $side-bar-width;
+  left: 0;
+  position: relative;
+}
+
+.sidebar {
+
+  background: $primary-color;
+  position: fixed;
+  margin-left: -$side-bar-width;
+  width: $side-bar-width;
+  top: 0;
+  left: $side-bar-width;
+  bottom: 0;
+  z-index: 1;
+  overflow-y: auto;
+
+  input[type=text] {
+    box-shadow: none;
+    width: $side-input-width;
+    color: $primary-color;
+  }
+
+}
+
+.l-box {
+  padding: 1em;
+}
+
+.emphasise {
+  color: $primary-color;
+}
+
+/* weird fix */
+.pure-menu-item {
+  height: auto;
+}

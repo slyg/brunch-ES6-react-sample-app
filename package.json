@@ -1,0 +1,21 @@
+{
+  "name": "search-github",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "brunch build",
+    "watch": "brunch watch --server"
+  },
+  "author": "Sylvain Faucherand <syl.faucherand@gmail.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "auto-reload-brunch": "^1.7.8",
+    "babel-brunch": "^5.0.0",
+    "brunch": "^1.8.1",
+    "css-brunch": "^1.7.0",
+    "sass-brunch": "^1.8.10"
+  },
+  "engines": {
+    "node": "^1.2.0"
+  }
+}
