@@ -1,7 +1,6 @@
 exports.config =
 
-  paths:
-    public: 'public'
+  paths: public: 'public'
 
   plugins: autoReload: enabled: true
 

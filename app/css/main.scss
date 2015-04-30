@@ -20,7 +20,7 @@ $side-input-width : 13.5em;
   z-index: 1;
   overflow-y: auto;
 
-  input[type=text] {
+  input[type='text'] {
     box-shadow: none;
     width: $side-input-width;
     color: $primary-color;
