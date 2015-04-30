@@ -1,0 +1,38 @@
+/* line 5, stdin */
+.layout {
+  padding-left: 16em;
+  left: 0;
+  position: relative; }
+
+/* line 11, stdin */
+.sidebar {
+  background: #2C3E50;
+  position: fixed;
+  margin-left: -16em;
+  width: 16em;
+  top: 0;
+  left: 16em;
+  bottom: 0;
+  z-index: 1;
+  overflow-y: auto; }
+  /* line 23, stdin */
+  .sidebar input[type=text] {
+    box-shadow: none;
+    width: 13.5em;
+    color: #2C3E50; }
+
+/* line 31, stdin */
+.l-box {
+  padding: 1em; }
+
+/* line 35, stdin */
+.emphasise {
+  color: #2C3E50; }
+
+/* weird fix */
+/* line 40, stdin */
+.pure-menu-item {
+  height: auto; }
+
+
+/*# sourceMappingURL=main.css.map*/
